@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url(./bg-image.png);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-left: 55px;
+}
+
+
+
+.card {
+    width: 730px;
+    height: 349px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    margin-top: 170px;
+    background: rgba(247, 248, 250, 0.80);
+    border-radius: 2px;
+    backdrop-filter: blur(12px);
+    justify-content: center;
+    align-items: center;
+}
+
+ .titulo {
+    text-align: center;
+    color: #1D252C;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.paragrafo {
+    font-family: Helvetica;
+    color: #1D252C;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25.6px
+    
+}
+
+.textb { 
+    color: #FFF;
+    padding: 8px 44px;
+    font-family: "Roboto";
+    font-size: 20.645px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    background: var(--green, #56B280);
+    cursor: pointer;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+    
+    
+}
+
+.PI {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto";
+    width: 1440px;
+    height: 75px;
+    align-items: center;
+    color: var(--black, #272727);
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    flex-shrink: 0;
+    
+}
+
+.navbar { 
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    
+    
+    
+}
+    
+.navbar li {
+   padding-right: 20px;
+   justify-content: center;
+   
+  
+   
+}
+
+.perfil {
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    
+}
+
+.carrinho {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.logo {
+    padding-right: 50px;
+}
+
+
