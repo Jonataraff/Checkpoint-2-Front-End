@@ -29,14 +29,18 @@ nav.navbar ul.navbar-list {
     display: flex;
     justify-content: space-between;
     gap: 65px;
+    padding-right: 6rem;
+    color: var(--black, #272727);
+    font-family: "Roboto";
     
     
     
 }
     
 nav.navbar ul.navbar-list li {
-   padding-right: 20px;
+   padding-left: 20px;
    justify-content: center;
+   font-family: "Roboto";
    
   
    
@@ -229,7 +233,7 @@ section.products div.products-list div.line div.single-product div.single-produc
     height: 105px;
     line-height: 46.6px; /* 116.5% */
     font-style: normal;
-    padding-left: 5%;
+    
 }
 
 .left-side > h4 {
@@ -241,7 +245,7 @@ section.products div.products-list div.line div.single-product div.single-produc
     width: 350px;
     height: 25px;
     flex-shrink: 0;
-    padding-left: 5%;
+    
 }
 
 
@@ -292,5 +296,73 @@ section.products div.products-list div.line div.single-product div.single-produc
     
     
     
+}
+section.testimonials {
+    background-color: rgba(86, 178, 128, 0.10);
+    text-align: center;
+    
+}
+section.testimonials h1.testimonials-title {
+    color: #0B254B;
+    font-family: "Poppins";
+    line-height: 57.6px; /* 144% */
+    letter-spacing: -0.9px;
+    font-size: 40px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    padding-top: 10rem;
+}
+section.testimonials h4{
+    color: var(--dark-1, #5E6E89);
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 27.6px; /* 153.333% */
+    letter-spacing: 0.1px;
+}
+
+section.testimonials div.testimonials-list{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+section.testimonials div.testimonials-list .square{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+      width: 350px;
+      height: 295px;
+      border-radius: 6px;
+      box-shadow: 0px 4px 24px 0px rgba(139, 167, 178, 0.16);
+}
+
+
+section.testimonials div.testimonials-list .square img .person { 
+    display: flex;
+    margin-bottom: 20%;
+    width: 84px;
+    height: 84px;
+}
+
+section.testimonials div.testimonials-list .stars {
+    width: 145.946px;
+    height: 24px;
+    
+}
+
+section.testimonials div.testimonials-list .square h1 {
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 500;
+    color: #1D293F;
+}
+
+
+section.testimonials div.testimonials-list .square p{
+    color: #7C8087;
+    font-family: Helvetica;
+    text-align: center;
 }
 
