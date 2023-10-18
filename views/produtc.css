@@ -1,0 +1,21 @@
+.product-container{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    margin: 3rem;
+}
+
+.cartNum{
+    position: relative;
+}
+
+.cartText{
+    text-align: center;
+    display: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+}
