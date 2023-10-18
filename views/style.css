@@ -35,6 +35,7 @@ nav.navbar {
 
 nav.navbar div.user{
     cursor: pointer;
+    display: relative;
 }
 
 nav.navbar ul.navbar-list { 
