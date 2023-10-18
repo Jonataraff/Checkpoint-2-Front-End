@@ -119,8 +119,8 @@ section.fst-container div.card div p.fst-p {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    line-height: 25.6px
-    
+    line-height: 25.6px;
+    padding-bottom: 2%;
 }
 
 section.fst-container div.card div p.fst-icon{
@@ -245,12 +245,10 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     background-color: #F7F8FA;
 }
 
-.left-side {
-    padding-left: 8%;
-    padding-top: 10%;
-}
 
-.left-side > h1 {
+
+
+.right-side > ul h1 {
     font-family: "Poppins";
     font-size: 40px;
     font-weight: 500;
@@ -260,12 +258,12 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     height: 105px;
     line-height: 46.6px; /* 116.5% */
     font-style: normal;
-    display: flex;
-    justify-content: center;
+    
+    
     
 }
 
-.left-side > h4 {
+.right-side > ul h4 {
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
@@ -274,8 +272,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     width: 350px;
     height: 25px;
     flex-shrink: 0;
-    display: flex;
-    justify-content: end;
+    padding-bottom: 20%;
     
 }
 
@@ -308,7 +305,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     -webkit-box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
     -moz-box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
     box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
-    margin-bottom: 20%;
+    
 }
 
 .textbt {
@@ -340,6 +337,16 @@ section.testimonials {
     background-color: rgba(86, 178, 128, 0.10);
     text-align: center;
     height: 40rem;
+    color: var(--dark-1, #5E6E89);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.6px; /* 153.333% */
+    letter-spacing: 0.1px;  
+        
     
 }
 
@@ -352,12 +359,14 @@ h1.section-title {
     font-feature-settings: 'clig' off, 'liga' off;
     padding-top: 7rem;
 }
+
 h4.section-sub{
     color: var(--dark-1, #5E6E89);
     font-family: "Poppins";
     font-weight: 500;
     line-height: 27.6px; /* 153.333% */
     letter-spacing: 0.1px;
+    
 }
 
 section.testimonials div.testimonials-list{
