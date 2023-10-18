@@ -82,6 +82,7 @@ section.fst-container{
     justify-content: center;
     background-repeat: no-repeat;
     background-image: url(../images/bg-image.png);
+    background-size: cover;
     height: 50rem;
     width: 100%;
     align-items: center;
@@ -258,6 +259,8 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     height: 105px;
     line-height: 46.6px; /* 116.5% */
     font-style: normal;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -270,6 +273,8 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     width: 350px;
     height: 25px;
     flex-shrink: 0;
+    display: flex;
+    justify-content: end;
     
 }
 
@@ -282,11 +287,13 @@ div.products-list div.line div.single-product div.single-product-info p.product-
 }
 
 .right-side > ul {
-    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
     font-family: "Poppins";
     line-height: 50.8px; /* 180% */
     color: #000;
     padding-bottom: 10%;
+    list-style:url(/images/checkmark-circle-outline\ 1.png);
     
     
     
