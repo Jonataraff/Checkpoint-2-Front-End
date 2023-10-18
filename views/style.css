@@ -7,6 +7,16 @@
 .w600{
     font-weight: 600;
 }
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+li:hover {
+   scale: 1.1;
+}
+
 nav.navbar {
     display: flex;
     justify-content: space-around;
@@ -22,8 +32,8 @@ nav.navbar {
     
 }
 
-nav.navbar div.logo {
-    padding-right: 50px;
+nav.navbar div.user{
+    cursor: pointer;
 }
 
 nav.navbar ul.navbar-list { 
@@ -43,9 +53,10 @@ nav.navbar ul.navbar-list li {
    padding-left: 20px;
    justify-content: center;
    font-family: "Roboto";
-   
-  
-   
+}
+
+nav.navbar ul.navbar-list li:hover {
+   color: #56B280;
 }
 
 nav.navbar img.perfil {
@@ -71,8 +82,7 @@ section.fst-container{
     justify-content: center;
     background-repeat: no-repeat;
     background-image: url(../images/bg-image.png);
-    background-size: cover;
-    height: 55rem;
+    height: 50rem;
     width: 100%;
     align-items: center;
 }
@@ -125,6 +135,12 @@ section.fst-container div.card div.fst-btn button.textb {
     border: none;
     background: var(--green, #56B280);
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+section.fst-container div.card div.fst-btn button.textb:hover{
+    background-color: #5bdb9b;
+    scale: 1.1;
 }
 
 section.fst-container div.card div.fst-btn  {
@@ -141,45 +157,52 @@ section.products{
     padding: 0 10% 0 10%;
 }
 
-section.products div.products-list div.line div.single-product{
+div.products-list div.line div.single-product{
     display: flex;
     width: 15rem;
     flex-direction: column;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    cursor:pointer
 }
 
-section.products div.products-list div.line{
+div.products-list div.line div.single-product:hover{
+    scale: 1.1;
+}
+
+div.products-list div.line{
     padding-top: 5rem;
     display: flex;
+    justify-content: center;
     gap: 3rem;
 }
 
-section.products div.products-list div.line div.single-product div.single-product-image{
+div.products-list div.line div.single-product div.single-product-image{
     background-color: #f7f8fa;
     object-fit: cover;
     display: flex;
     justify-content: center;
 }
 
-section.products div.products-list div.line div.single-product div.single-product-image img{
+div.products-list div.line div.single-product div.single-product-image img{
     height: 12rem;
     transform: scale(1.2);
     
 }
 
-section.products div.products-list div.line div.single-product div.single-product-info{
+div.products-list div.line div.single-product div.single-product-info{
     background-color: #ffffff;
     padding: 1rem;
     
 }
 
-section.products div.products-list div.line div.single-product div.single-product-info p.product-title{
+div.products-list div.line div.single-product div.single-product-info p.product-title{
     font-family: "Poppins";  
     font-size: 17px;
     font-weight: 500;
 }
 
-section.products div.products-list div.line div.single-product div.single-product-info p.product-price{
+div.products-list div.line div.single-product div.single-product-info p.product-price{
     font-family: "Poppins";  
     font-size: 20px;
     text-align: right;
@@ -290,6 +313,12 @@ section.products div.products-list div.line div.single-product div.single-produc
     border: none;
     background: var(--green, #56B280);
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.textbt:hover {
+    background-color: #5bdb9b;
+    scale: 1.1;
 }
 
 .bt {
@@ -305,7 +334,8 @@ section.testimonials {
     height: 40rem;
     
 }
-section.testimonials h1.testimonials-title {
+
+h1.section-title {
     color: #0B254B;
     font-family: "Poppins";
     line-height: 57.6px; /* 144% */
@@ -314,7 +344,7 @@ section.testimonials h1.testimonials-title {
     font-feature-settings: 'clig' off, 'liga' off;
     padding-top: 7rem;
 }
-section.testimonials h4{
+h4.section-sub{
     color: var(--dark-1, #5E6E89);
     font-family: "Poppins";
     font-weight: 500;
@@ -503,4 +533,52 @@ section.middle-section div.checkout-right-side div.total{
     flex-direction: row; 
     justify-content: space-between;
     text-align: center;
+}
+
+section.popular{
+    text-align: center;
+    height: 40rem;
+}
+
+footer{
+    background-color: #272727;
+    height: 20rem;
+    padding: 4rem 7rem 0 7rem;
+}
+
+footer div.footer-main{
+    border-top: 1.5px solid #FFFFFF;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer div.footer-main img.footer-logo{
+    height: 4rem;
+}
+
+footer div.footer-main p.footer-desc{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer div.footer-main div.footer-right{
+    display:flex;
+    gap: 5rem;
+    padding-top: 2rem;
+}
+
+footer div.footer-main div.footer-right ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #E1E1E1;
+    font-weight: 300;
+}
+
+footer div.footer-main div.footer-right ul li:first-child {
+    color:#56b280;
 }
