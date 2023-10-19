@@ -2,7 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .w600{
@@ -693,6 +692,138 @@ section.middle-section div.checkout-left-side div.checkout-confirm a {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     margin-top: 1rem;
+}
+
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth img {   
+    width: 12rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth  {   
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    
+}
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth div t {
+    color: #616161;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth div t.selected-step {
+    color: #272727;
+}
+
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth div t.old-steps {
+    color: #56B280;
+}
+
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth div {
+    display:flex;
+    gap: 1rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-contact {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding-top: 5%;
+}
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding-top: 2rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-navigation {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #272727;
+}
+
+
+.formField{
+    width: 100%;
+    height: 3rem;
+    margin-top:0.4rem;
+}
+
+::placeholder{
+    padding-left: 1rem;
+    font-family: 'Helvetica', sans-serif;
+}
+
+input[type="checkbox"]{
+    font-family: 'Helvetica', sans-serif;
+}
+
+#provinceSelect {
+    height :3.2rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress form div.inlineField {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress form div.inlineField select {
+    padding: 0 1rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress form select {
+    padding: 0 1rem;
+}
+
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress form {
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.checkboxInput {
+    display: flex;
+    gap:0.4rem;
+    align-items: center;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;   
+    font-size: 14px;
+}
+
+section.middle-section div.checkout-left-side div.checkout-contact div.checkout-contact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-contact div.checkout-contact-header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #272727;
+}
+
+section.middle-section div.checkout-left-side div.checkout-contact div.checkout-contact-header p span {
+    color: #56B280;
+    cursor: pointer;
 }
 
 div.pay_chek{
