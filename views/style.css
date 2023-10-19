@@ -18,7 +18,7 @@ li:hover {
    scale: 1.1;
 }
 
-nav.navbar {
+header.header {
     display: flex;
     justify-content: space-around;
     font-family: "Roboto";
@@ -33,11 +33,12 @@ nav.navbar {
     
 }
 
-nav.navbar div.user{
+header.header div.user{
     cursor: pointer;
+    display: relative;
 }
 
-nav.navbar ul.navbar-list { 
+header.header ul.navbar-list { 
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -50,17 +51,17 @@ nav.navbar ul.navbar-list {
     
 }
     
-nav.navbar ul.navbar-list li {
+header.header ul.navbar-list li {
    padding-left: 20px;
    justify-content: center;
    font-family: "Roboto";
 }
 
-nav.navbar ul.navbar-list li:hover {
+header.header ul.navbar-list li:hover {
    color: #56B280;
 }
 
-nav.navbar img.perfil {
+header.header img.perfil {
     cursor: pointer;
     width: 34px;
     height: 34px;
@@ -68,7 +69,7 @@ nav.navbar img.perfil {
     
 }
 
-nav.navbar img.carrinho {
+header.header img.carrinho {
     width: 26px;
     height: 26px;
     flex-shrink: 0;
@@ -83,6 +84,7 @@ section.fst-container{
     justify-content: center;
     background-repeat: no-repeat;
     background-image: url(../images/bg-image.png);
+    background-size: cover;
     height: 50rem;
     width: 100%;
     align-items: center;
@@ -118,8 +120,8 @@ section.fst-container div.card div p.fst-p {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    line-height: 25.6px
-    
+    line-height: 25.6px;
+    padding-bottom: 2%;
 }
 
 section.fst-container div.card div p.fst-icon{
@@ -244,12 +246,10 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     background-color: #F7F8FA;
 }
 
-.left-side {
-    padding-left: 8%;
-    padding-top: 10%;
-}
 
-.left-side > h1 {
+
+
+.right-side > ul h1 {
     font-family: "Poppins";
     font-size: 40px;
     font-weight: 500;
@@ -260,9 +260,11 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     line-height: 46.6px; /* 116.5% */
     font-style: normal;
     
+    
+    
 }
 
-.left-side > h4 {
+.right-side > ul h4 {
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
@@ -271,6 +273,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     width: 350px;
     height: 25px;
     flex-shrink: 0;
+    padding-bottom: 10%;
     
 }
 
@@ -279,16 +282,19 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: #F7F8FA;
     
 }
 
 .right-side > ul {
-    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
     font-family: "Poppins";
     line-height: 50.8px; /* 180% */
     color: #000;
     padding-bottom: 10%;
-    
+    list-style:url(/images/checkmark-circle-outline\ 1.png);
+    padding-top: 10%;
     
     
 }
@@ -301,7 +307,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     -webkit-box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
     -moz-box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
     box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
-    margin-bottom: 20%;
+    
 }
 
 .textbt {
@@ -324,7 +330,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
 
 .bt {
     display: flex;
-    padding-top: 20%;
+    padding-top: 10%;
     
     
     
@@ -333,6 +339,16 @@ section.testimonials {
     background-color: rgba(86, 178, 128, 0.10);
     text-align: center;
     height: 40rem;
+    color: var(--dark-1, #5E6E89);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.6px; /* 153.333% */
+    letter-spacing: 0.1px;  
+        
     
 }
 
@@ -345,12 +361,14 @@ h1.section-title {
     font-feature-settings: 'clig' off, 'liga' off;
     padding-top: 7rem;
 }
+
 h4.section-sub{
     color: var(--dark-1, #5E6E89);
     font-family: "Poppins";
     font-weight: 500;
     line-height: 27.6px; /* 153.333% */
     letter-spacing: 0.1px;
+    
 }
 
 section.testimonials div.testimonials-list{
@@ -485,7 +503,7 @@ section.middle-section div.checkout-right-side div.cupon input{
 
 section.middle-section div.checkout-right-side div.cupon button{
     height: 100%;
-    width: 7rem;
+    width: 5rem;
     padding: 0.2rem;
     border: none;
     border-radius: 5px;
@@ -626,7 +644,7 @@ section.middle-section div.checkout-left-side div.checkout-confirm {
     align-items: center;
     justify-content: center;
     height: 30rem;
-    padding: 0 3rem 0 12rem;
+    padding: 2rem 3rem 0 12rem;
     gap: 1rem;
 }
 
@@ -652,7 +670,6 @@ section.middle-section div.checkout-left-side div.checkout-confirm button {
     width: 17rem;
     font-size: 20.65px;
     margin-top: 2rem;
-    color: #ffffff;
     background-color: #56B280;
     border-radius: 4px;
     transition: all 0.3s ease-in-out;
@@ -677,3 +694,121 @@ section.middle-section div.checkout-left-side div.checkout-confirm a {
     font-size: 18px;
     margin-top: 1rem;
 }
+
+div.pay_chek{
+    color:#818181;
+    display:flex;
+    font-size:9px;
+    margin:5rem;
+}
+
+div.ship_to{
+    color:#818181;
+    display:flex;
+    font-size:9px;
+    margin:0rem;
+}
+div.method{
+    color:#818181;
+    display:flex;
+    font-size:9px;
+    margin:5rem;
+}
+section.middle-section div.checkout-left-side div.contact-info{
+
+    border: 1px solid #56B28033;
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+    margin-top:3rem ;
+    
+
+
+}
+section.middle-section div.checkout-left-side div.contact-info div.contact-edit{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+}
+section.middle-section div.checkout-left-side div.contact-info div.contact-edit:first-child{
+    border-bottom:1px solid #56B28033;
+}
+
+section.middle-section div.checkout-left-side div.contact-info div.contact-edit div{
+    display: flex;
+    gap: 1rem;
+    
+}
+section.middle-section div.checkout-left-side div.contact-info div.contact-edit div p{
+    font-size: 14px;
+
+}
+section.middle-section div.checkout-left-side div.contact-info div.contact-edit div p:first-child{
+    width: 4rem;
+    color:#818181 ;
+}
+section.middle-section div.checkout-left-side div.contact-info div.contact-edit p.edit-btn{
+    font-size: 14px;
+    color:#56B280 ;
+}
+section.middle-section div.checkout-left-side div.shipping-method{
+  
+    display: flex;
+    flex-direction: column;
+    width: 34rem ;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+section.middle-section div.checkout-left-side div.shipping-method div.shipping-options{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    gap: 1rem;
+    border: 1px solid #E5E5E5;
+    padding: 1rem 1.5rem ;
+    border-radius: 7px;
+    justify-content: space-between;
+
+}
+section.middle-section div.checkout-left-side div.shipping-method div.shipping-options div.method-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+section.middle-section div.checkout-left-side div.shipping-method div.shipping-options input[type='radio'] {
+    accent-color: #87D6AC;
+    
+}
+section.middle-section div.checkout-left-side div.shipping-method div.shipping-options div.method-text p:last-child{
+    font-weight: 700;
+}
+section.middle-section div.checkout-left-side div.submit-payment{
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+    width:34rem ;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+section.middle-section div.checkout-left-side div.submit-payment a{
+    text-decoration:underline ;
+    color:#56B280 ;
+    font-size: 18px;
+    font-weight: 400;
+}
+section.middle-section div.checkout-left-side div.submit-payment button{
+    border: none;
+    background-color: #56B280 ;
+    color: #ffffff;
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+    font-size: 20.65px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+section.middle-section div.checkout-left-side div.submit-payment button:hover{
+    background-color: #73e9a8 ;
+    scale: 1.1;
+}
+
