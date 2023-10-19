@@ -659,6 +659,12 @@ section.middle-section div.checkout-left-side div.checkout-confirm button {
     cursor: pointer;
 }
 
+section.middle-section div.checkout-left-side div.checkout-confirm a:first-child {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
 section.middle-section div.checkout-left-side div.checkout-confirm button:hover {
     background-color: #70d39d;
     scale: 1.1;
