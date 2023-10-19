@@ -2,7 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .w600{
@@ -773,6 +772,60 @@ h3 {
 input[type="checkbox"]{
     font-family: 'Helvetica', sans-serif;
 }
+
+#provinceSelect {
+    height :3.2rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress form div.inlineField {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress form div.inlineField select {
+    padding: 0 1rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress form select {
+    padding: 0 1rem;
+}
+
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress form {
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.checkboxInput {
+    display: flex;
+    gap:0.4rem;
+    align-items: center;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;   
+    font-size: 14px;
+}
+
+section.middle-section div.checkout-left-side div.checkout-contact div.checkout-contact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-contact div.checkout-contact-header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #272727;
+}
+
+section.middle-section div.checkout-left-side div.checkout-contact div.checkout-contact-header p span {
+    color: #56B280;
+    cursor: pointer;
+}
+
 
 
 

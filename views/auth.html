@@ -31,9 +31,13 @@
                 
             </div>
             <div class = "checkout-contact">
-                <h3>Contact</h3>
+                <div class="checkout-contact-header">
+                    <h3>Contact</h3>
+                    <p>Do you have an account? <span>Login</span></p>
+                </div>
+                
                 <input class = "formField" type="text" placeholder="Email or mobile phone number">
-                <div class="checkNewsletter">
+                <div class="checkboxInput">
                     <input type="checkbox" id="newsletterSignup">
                     <label for ="newsletterSignup">Add me to Candleaf newsletter for a 10% discount</label>
                 </div>
@@ -41,27 +45,32 @@
             <div class = "checkout-shipping-adress">
                 <form id="shippingForm">
                     <h3>Shipping Adress</h3>
-                    <input class = "formField" type="text" placeholder="Name">
-                    <input class = "formField" type="text" placeholder="Second Name">
+                    <div class = "inlineField">
+                        <input class = "formField" type="text" placeholder="Name">
+                        <input class = "formField" type="text" placeholder="Second Name">
+                    </div>
                     <input class = "formField" type="text" placeholder="Adress and Number">
                     <input class = "formField"type="text" placeholder="Shipping note (optional)">
-                    <input class = "formField" type="text" placeholder="City">
-                    <input class = "formField" type="number" placeholder="Postal Code">
-                    <input class = "formField" type="" placeholder="Name">
-                    <select class = "formField" id="provinceSelect" name="province" form="shippingForm">
-                        <option value="province" disabled selected hidden>Province</option>
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
-                    </select>
+                    <div class = "inlineField">
+                        <input class = "formField" type="text" placeholder="City">
+                        <input class = "formField" type="number" placeholder="Postal Code">
+                        <select class = "formField" id="provinceSelect" name="province" form="shippingForm">
+                            <option value="province" disabled selected hidden>Province</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
                     <select class = "formField" id="countrySelect" name="country" form="shippingForm" placeholder="oi">
                         <option value="italy" disabled selected hidden>Italy</option>
                         <option value="option1">Option 1</option>
                         <option value="option2">Option 2</option>
                         <option value="option3">Option 3</option>
                     </select>
-                    <input type="checkbox" id=""saveInfo>
+                    <div class="checkboxInput">
+                    <input type="checkbox" saveInfo>
                     <label for ="saveInfo">Save this information for a future fast checkout</label>
+                    </div>
                 </form>
             </div>
             <div class = "checkout-navigation"></div>
