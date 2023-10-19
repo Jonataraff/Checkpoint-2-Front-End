@@ -943,3 +943,9 @@ section.middle-section div.checkout-left-side div.submit-payment button:hover{
     scale: 1.1;
 }
 
+
+section.middle-section div.checkout-left-side div.submit-shipping {
+    width: 28rem;
+    padding-bottom: 12rem;
+
+}
