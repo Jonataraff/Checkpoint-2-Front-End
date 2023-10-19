@@ -650,6 +650,11 @@ section.middle-section div.checkout-left-side div.checkout-confirm {
     gap: 1rem;
 }
 
+section.middle-section div.checkout-left-side div.checkout-confirm h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 section.middle-section div.checkout-left-side div.checkout-confirm img {
     width: 7rem;
 }
@@ -664,6 +669,8 @@ section.middle-section div.checkout-left-side div.checkout-confirm p.order-numbe
 section.middle-section div.checkout-left-side div.checkout-confirm p.thanks-message {
     line-height: 1.2rem;
     color: #818181;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
 }
 
 section.middle-section div.checkout-left-side div.checkout-confirm button {
