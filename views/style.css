@@ -900,10 +900,12 @@ section.middle-section div.checkout-left-side div.shipping-method{
   
     display: flex;
     flex-direction: column;
-    width: 31.25rem;
+    width: 34rem;
     margin-top: 2rem;
     gap: 1rem;
 }
+
+
 section.middle-section div.checkout-left-side div.shipping-method div.shipping-options{
     display: flex;
     flex-direction: row;
