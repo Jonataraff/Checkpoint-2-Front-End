@@ -729,9 +729,170 @@ section.middle-section div.checkout-left-side div.checkout-logo-auth div {
     gap: 1rem;
 }
 
-section.middle-section div.checkout-left-side {
+section.middle-section div.checkout-left-side div.checkout-contact {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding-top: 5%;
+}
+
+section.middle-section div.checkout-left-side div.checkout-shipping-adress {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding-top: 2rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-navigation {
     gap: 2rem;
     display: flex;
     flex-direction: column;
     width: 25vw;
 }
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #272727;
+}
+
+
+.formField{
+    width: 100%;
+    height: 3rem;
+    margin-top:0.4rem;
+}
+
+::placeholder{
+    padding-left: 1rem;
+    font-family: 'Helvetica', sans-serif;
+}
+
+input[type="checkbox"]{
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

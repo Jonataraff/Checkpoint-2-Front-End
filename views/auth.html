@@ -32,22 +32,30 @@
             </div>
             <div class = "checkout-contact">
                 <h3>Contact</h3>
-                <input type="text" placeholder="Email or mobile phone number">
-                <input type="checkbox" id="newsletterSignup">
-                <label for ="newsletterSignup">Add me to Candleaf newsletter for a 10% discount</label>
+                <input class = "formField" type="text" placeholder="Email or mobile phone number">
+                <div class="checkNewsletter">
+                    <input type="checkbox" id="newsletterSignup">
+                    <label for ="newsletterSignup">Add me to Candleaf newsletter for a 10% discount</label>
+                </div>
             </div>
             <div class = "checkout-shipping-adress">
                 <form id="shippingForm">
                     <h3>Shipping Adress</h3>
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Second Name">
-                    <input type="text" placeholder="Adress and Number">
-                    <input type="text" placeholder="Shipping note (optional)">
-                    <input type="text" placeholder="City">
-                    <input type="number" placeholder="Postal Code">
-                    <input type="" placeholder="Name">
-                    <select id="provinceSelect" name="province" form="shippingForm">
-                        <option value="province" disabled selected>Province</option>
+                    <input class = "formField" type="text" placeholder="Name">
+                    <input class = "formField" type="text" placeholder="Second Name">
+                    <input class = "formField" type="text" placeholder="Adress and Number">
+                    <input class = "formField"type="text" placeholder="Shipping note (optional)">
+                    <input class = "formField" type="text" placeholder="City">
+                    <input class = "formField" type="number" placeholder="Postal Code">
+                    <input class = "formField" type="" placeholder="Name">
+                    <select class = "formField" id="provinceSelect" name="province" form="shippingForm">
+                        <option value="province" disabled selected hidden>Province</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                    <select class = "formField" id="countrySelect" name="country" form="shippingForm" placeholder="oi">
+                        <option value="italy" disabled selected hidden>Italy</option>
                         <option value="option1">Option 1</option>
                         <option value="option2">Option 2</option>
                         <option value="option3">Option 3</option>
