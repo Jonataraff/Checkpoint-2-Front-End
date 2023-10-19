@@ -1135,19 +1135,6 @@ section.cart-section div.product-cart-info div.cart-single-product div.cart-prod
 section.cart-section div.product-cart-info div.cart-single-product div.cart-product-info div.cart-product-name a{
     color: #56B280;
     font-size: 18px;
-section.middle-section div.checkout-left-side div.tax-informations {
-    font-family: 'Helvetica', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    gap: 1rem;
-    margin-top: 1.5rem;
-    font-size: 14px;
-    line-height: 25.6px;
-    font-weight: 400;
-    width: 450px;
-    height: 40px;
-   
     
 }
 
@@ -1191,16 +1178,4 @@ section.cart-section div.product-cart-info div.cart-resume button{
 section.cart-section div.product-cart-info div.cart-resume button:hover{
     scale: 1.1;
     background: #73e9a8;
-}
-section.middle-section div.checkout-left-side div.tax-informations input {
-    padding: 0.7rem;
-
-}
-
-
-section.middle-section div.checkout-left-side div.tax-informations h5 {
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-
 }
