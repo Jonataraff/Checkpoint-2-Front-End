@@ -694,3 +694,44 @@ section.middle-section div.checkout-left-side div.checkout-confirm a {
     font-size: 18px;
     margin-top: 1rem;
 }
+
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth img {   
+    width: 12rem;
+}
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth  {   
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    
+}
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth div t {
+    color: #616161;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth div t.selected-step {
+    color: #272727;
+}
+
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth div t.old-steps {
+    color: #56B280;
+}
+
+
+section.middle-section div.checkout-left-side div.checkout-logo-auth div {
+    display:flex;
+    gap: 1rem;
+}
+
+section.middle-section div.checkout-left-side {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
