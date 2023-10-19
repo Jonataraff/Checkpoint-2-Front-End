@@ -695,7 +695,6 @@ section.middle-section div.checkout-left-side div.checkout-confirm a {
     margin-top: 1rem;
 }
 
-<<<<<<< HEAD
 div.pay_chek{
     color:#818181;
     display:flex;
@@ -715,7 +714,6 @@ div.method{
     font-size:9px;
     margin:5rem;
 }
-=======
 section.middle-section div.checkout-left-side div.contact-info{
 
     border: 1px solid #56B28033;
@@ -814,6 +812,3 @@ section.middle-section div.checkout-left-side div.submit-payment button:hover{
     scale: 1.1;
 }
 
-
-
->>>>>>> 5b4c437b146af4a4db649f5dd7652b2c96c2ec53
