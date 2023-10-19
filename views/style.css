@@ -707,6 +707,9 @@ section.middle-section div.checkout-left-side div.checkout-confirm a {
     margin-top: 1rem;
 }
 
+section.middle-section div.checkout-left-side div.checkout-logo-auth{
+    padding-top: 1rem;
+}
 
 section.middle-section div.checkout-left-side div.checkout-logo-auth img {   
     width: 12rem;
