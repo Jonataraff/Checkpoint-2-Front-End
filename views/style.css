@@ -8,6 +8,9 @@
 .w600{
     font-weight: 600;
 }
+.d-none{
+    display: none;
+}
 
 li {
     list-style-type: none;
@@ -926,11 +929,27 @@ section.middle-section div.checkout-left-side div.shipping-method div.shipping-o
 }
 
 
+section.middle-section div.checkout-left-side div.tax-informations{
+display: flex;
+flex-direction: column;
+width: 34rem;
+margin-top: 2rem;
+gap: 0.5rem;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+}
+
+section.middle-section div.checkout-left-side div.tax-informations input{
+    padding: 0.7rem;
+    border: 0.5px solid #898989
+    
+}
+
 section.middle-section div.checkout-left-side div.payment-method{
-  
+    
     display: flex;
     flex-direction: column;
-    width: 31.25rem;
+    width: 34.25rem;
     margin-top: 2rem;
     
     
@@ -1012,6 +1031,9 @@ section.middle-section div.checkout-left-side div.payment-method div.payment-opt
     font-weight: 700;
 }
 
+
+
+
 section.middle-section div.checkout-left-side div.submit-payment{
     display: flex;
     align-items: center;
@@ -1021,6 +1043,13 @@ section.middle-section div.checkout-left-side div.submit-payment{
     justify-content: space-between;
     padding-bottom: 5rem;
 }
+
+section.middle-section div.checkout-left-side div.no-absolute{
+    position: relative;
+    padding:7rem 0 3rem 0;
+}
+
+
 section.middle-section div.checkout-left-side div.submit-payment a{
     text-decoration:underline ;
     color:#56B280 ;
@@ -1191,4 +1220,50 @@ section.cart-section div.product-cart-info div.cart-resume button{
 section.cart-section div.product-cart-info div.cart-resume button:hover{
     scale: 1.1;
     background: #73e9a8;
+}
+
+
+
+section.middle-section div.checkout-left-side div.billing {
+    width: 34rem;
+    margin-top: 2rem;
+}
+
+
+section.middle-section div.checkout-left-side div.billing div.billing-options{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid #E5E5E5;
+    padding: 1rem 1.5rem ;
+    border-radius: 7px;
+    
+   
+    
+}
+
+
+section.middle-section div.checkout-left-side div.billing div.billing-options div.billing-collum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    
+}
+
+section.middle-section div.checkout-left-side div.billing div.billing-options div.billing-collum:first-child{
+    border-bottom: 0.25px solid #818181;
+    padding: 0 0 1rem 0;
+}
+
+section.middle-section div.checkout-left-side div.billing div.billing-options div.billing-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+section.middle-section div.checkout-left-side div.billing div.billing-options input[type='radio'] {
+    accent-color: #87D6AC;
+    
 }
