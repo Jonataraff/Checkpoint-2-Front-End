@@ -18,7 +18,7 @@ li:hover {
    scale: 1.1;
 }
 
-nav.navbar {
+header.header {
     display: flex;
     justify-content: space-around;
     font-family: "Roboto";
@@ -33,11 +33,12 @@ nav.navbar {
     
 }
 
-nav.navbar div.user{
+header.header div.user{
     cursor: pointer;
+    display: relative;
 }
 
-nav.navbar ul.navbar-list { 
+header.header ul.navbar-list { 
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -50,17 +51,17 @@ nav.navbar ul.navbar-list {
     
 }
     
-nav.navbar ul.navbar-list li {
+header.header ul.navbar-list li {
    padding-left: 20px;
    justify-content: center;
    font-family: "Roboto";
 }
 
-nav.navbar ul.navbar-list li:hover {
+header.header ul.navbar-list li:hover {
    color: #56B280;
 }
 
-nav.navbar img.perfil {
+header.header img.perfil {
     cursor: pointer;
     width: 34px;
     height: 34px;
@@ -68,7 +69,7 @@ nav.navbar img.perfil {
     
 }
 
-nav.navbar img.carrinho {
+header.header img.carrinho {
     width: 26px;
     height: 26px;
     flex-shrink: 0;
@@ -119,8 +120,8 @@ section.fst-container div.card div p.fst-p {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    line-height: 25.6px
-    
+    line-height: 25.6px;
+    padding-bottom: 2%;
 }
 
 section.fst-container div.card div p.fst-icon{
@@ -245,12 +246,10 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     background-color: #F7F8FA;
 }
 
-.left-side {
-    padding-left: 8%;
-    padding-top: 10%;
-}
 
-.left-side > h1 {
+
+
+.right-side > ul h1 {
     font-family: "Poppins";
     font-size: 40px;
     font-weight: 500;
@@ -260,12 +259,12 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     height: 105px;
     line-height: 46.6px; /* 116.5% */
     font-style: normal;
-    display: flex;
-    justify-content: center;
+    
+    
     
 }
 
-.left-side > h4 {
+.right-side > ul h4 {
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
@@ -274,8 +273,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     width: 350px;
     height: 25px;
     flex-shrink: 0;
-    display: flex;
-    justify-content: end;
+    padding-bottom: 10%;
     
 }
 
@@ -284,6 +282,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: #F7F8FA;
     
 }
 
@@ -295,7 +294,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     color: #000;
     padding-bottom: 10%;
     list-style:url(/images/checkmark-circle-outline\ 1.png);
-    
+    padding-top: 10%;
     
     
 }
@@ -308,7 +307,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
     -webkit-box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
     -moz-box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
     box-shadow: 7px 10px 61px -10px rgba(0,0,0,0.5);
-    margin-bottom: 20%;
+    
 }
 
 .textbt {
@@ -331,7 +330,7 @@ div.products-list div.line div.single-product div.single-product-info p.product-
 
 .bt {
     display: flex;
-    padding-top: 20%;
+    padding-top: 10%;
     
     
     
@@ -340,6 +339,16 @@ section.testimonials {
     background-color: rgba(86, 178, 128, 0.10);
     text-align: center;
     height: 40rem;
+    color: var(--dark-1, #5E6E89);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.6px; /* 153.333% */
+    letter-spacing: 0.1px;  
+        
     
 }
 
@@ -352,12 +361,14 @@ h1.section-title {
     font-feature-settings: 'clig' off, 'liga' off;
     padding-top: 7rem;
 }
+
 h4.section-sub{
     color: var(--dark-1, #5E6E89);
     font-family: "Poppins";
     font-weight: 500;
     line-height: 27.6px; /* 153.333% */
     letter-spacing: 0.1px;
+    
 }
 
 section.testimonials div.testimonials-list{
@@ -492,7 +503,7 @@ section.middle-section div.checkout-right-side div.cupon input{
 
 section.middle-section div.checkout-right-side div.cupon button{
     height: 100%;
-    width: 7rem;
+    width: 5rem;
     padding: 0.2rem;
     border: none;
     border-radius: 5px;
@@ -633,7 +644,7 @@ section.middle-section div.checkout-left-side div.checkout-confirm {
     align-items: center;
     justify-content: center;
     height: 30rem;
-    padding: 0 3rem 0 12rem;
+    padding: 2rem 3rem 0 12rem;
     gap: 1rem;
 }
 
